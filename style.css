@@ -1,0 +1,124 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #1a1a1a;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 30px 0;
+  background-color: #f2f2f2;
+}
+
+header img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #000000;
+}
+
+header h1 {
+  margin-top: 15px;
+  font-size: 28px;
+  color: #000000;
+}
+
+/* Section Layout */
+section {
+  margin: 40px auto;
+  max-width: 1000px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 5px;
+}
+
+/* Projects */
+.project {
+  margin-bottom: 25px;
+}
+
+.project h3 {
+  color: #000000;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+/* Skills & Education */
+ul {
+  list-style-type: square;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+/* Contact Form */
+#contact form {
+  max-width: 600px;
+  margin: auto;
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+#contact button {
+  background-color: #000000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#contact button:hover {
+  background-color: #333333;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  header img {
+    width: 90px;
+    height: 90px;
+  }
+
+  header h1 {
+    font-size: 22px;
+  }
+
+  section h2 {
+    font-size: 20px;
+  }
+
+  .project h3 {
+    font-size: 18px;
+  }
+}
